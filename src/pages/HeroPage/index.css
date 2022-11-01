@@ -1,0 +1,104 @@
+
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.hero-sec {
+    background-image: url("../../assets/image/BG-1.jpg");
+    height: 100vh; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #eeebe6;
+}
+
+.profil{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 360px;
+    width: 195px;
+    border-radius: 200px;
+    object-fit: cover;
+    padding: 0.3rem;
+    border: solid 2px #a8b3a3;
+    margin-top: -6.7rem;
+}
+
+.flower-container-1{
+    width: auto;
+    height: 252px;
+    overflow: hidden;
+}
+.flower-1{
+    height: 340px;
+    margin-top: -88px;
+    margin-left: 255px;
+}
+
+.flower-container-2{
+    width: auto;
+    height: 300px;
+    overflow: hidden;
+    margin-top: -290px;
+}
+.flower-2{
+    height: 260px;
+    transform: rotate(-25deg);
+    margin-top: 100px;
+    margin-left: 315px;
+}
+
+.information{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #626d5b;
+    margin-top: 6rem;
+}
+
+.information h1 {
+    font-weight: 550;
+    font-size: 70px;
+    line-height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.information h2 {
+    font-weight: 1110;
+    font-size: 25px;
+    line-height: 150%;
+    margin-top: 2rem;
+    margin-bottom: 0;
+    padding: 0.5rem 1rem;
+    border: solid 2px #b08e4e;
+}
+
+.information p{
+    margin-top: 0.5rem;
+    font-size: 12px;
+}
+
+@media only screen and (min-width: 440px) { 
+
+    .flower-container-1{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 420px;
+    }
+
+    .flower-container-2{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 420px;
+    }
+}
+
+
+
+

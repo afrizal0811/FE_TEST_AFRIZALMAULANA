@@ -1,0 +1,121 @@
+.invite-sec {
+  background-image: url("../../assets/image/BG-2.jpg");
+  height: 100vh; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: #e4e8dd;
+}
+
+.flower-container-3{
+    width: auto;
+    height: 190px;
+    margin-top: -12px;
+}
+.flower-3{
+    height: 300px;
+    margin-top: -120px;
+    margin-left: -142px;
+}
+
+.opening{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.opening h1{
+    color: #b08c40;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 24px;
+    margin-top: -5px;
+    margin-bottom: 1rem;
+}
+
+.opening p{
+    color: #859580;
+    padding-bottom: 0.3rem;
+    margin: 0;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.pengantin-info{
+    color: #859580;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 0;
+    margin: 0;
+}
+
+.pengantin-info h1{
+    font-size: 60px;
+    font-weight: 100;
+    margin: 0;
+    padding: 0.1rem 0;
+}
+
+.pengantin-info p {
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+}
+
+.surah {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.surah h1{
+    color: #b08c40;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 25px;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.surah p{
+    color: #859580;
+    width: 310px;
+    margin: 0 3rem;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 17px;
+}
+
+.flower-container-4{
+    width: auto;
+    height: 176px;
+    overflow: hidden;
+
+}
+.flower-4{
+    height: 365px;
+    margin-left: -40px;
+}
+
+@media only screen and (min-width: 440px) { 
+
+    .flower-container-3{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 420px;
+    }
+    .flower-container-4{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 420px;
+    }
+
+}
